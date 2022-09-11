@@ -1,15 +1,35 @@
 ---
 layout: post
-author: Abhinav Saxena
+author: Andre Castellanos
 ---
 
-Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus.
+## What are SIMD instructions?
 
-# Sample heading 1
-## Sample heading 2
-### Sample heading 3
-#### Sample heading 4
-##### Sample heading 5
+Have you ever heard of SIMD instructions? SIMD stands for single instruction on multiple data. This means that with __one CPU instruction can operate in parallel on more than one unit of data__.
+
+### Figure: Vector addition
+
+## What are AVX instructions?
+
+AVX (or Advanced Vector Extensions) are SIMD instructions in the x86 ISA that are currently in most Intel and AMD proccesors. We have inside these processors the "multiple data" AVX registers of 128 bits, AVX2 registers of 256 bits or even (only Intel) AVX-512 registers of 512 bits. 
+
+### Example: 32 8-bit integer numbers parallel adding
+
+
+
+## Application: Matrix multiplication
+
+As always in parallel programming, the typical example is to implement matrix multiplication in some parallel way. In our case we are going to use AVX2 256 bit register for 8 floating point numbers of 32 bits. In every processor with AVX2 capabilities it has __16 256 bit registers__, namely YMM0 to YMM15 in the processor's developer manual.
+
+
+
+## Other type of Intrinsics functions
+
+
+
+## Where to found more?
+
+
 ###### Sample heading 6
 
 Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod.

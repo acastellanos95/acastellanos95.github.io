@@ -1,5 +1,6 @@
 ---
 layout: home
+title: André Castellanos - Software Engineer
 ---
 
 ### Languages

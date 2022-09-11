@@ -9,31 +9,31 @@ navbar_entries:
     url: https://drive.google.com/file/d/1sCHyJpq87VKnGW3nmhM01ti48QiJ2Z1y/view?usp=sharing
 
 project_entries:
-  - title: Project 1
-    url: overview-post
-    desc: This is an example project, configured in _data/home.yml
+  - title: Concurrent Matrix Sorting
+    url: https://github.com/acastellanos95/Concurrent-Matrix-Sort
+    desc: Concurrent sorting in-place using C++17 threading with mergesort and merge k arrays.
 
-  - title: Project 2
-    url: overview-post
-    desc: Projects are shown in card layout
+  - title: rv32i CPU in VHDL
+    url: https://github.com/acastellanos95/RV32I-CPU
+    desc: 5 stage pipeline implementation of rv32i with cache.
 
-  - title: Project 3
-    url: overview-post
-    desc: You can control visibility from _config.yml file
+  - title: Single level cache emulator
+    url: https://github.com/acastellanos95/SingleLevelCacheEmulator
+    desc: Single level cache emulator for educational purposes with visualization.
 
-  - title: Project 4
-    url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
+  - title: Encryption and decryption webapp
+    url: https://github.com/acastellanos95/EncryptionDecryptionWebpage
+    desc: Encryption and decryption of files using AES block cipher with crypto-js.
+    # highlight: WIP
 
-  - title: Project 5
-    url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
+  - title: Parallel evolutionary multiobjective algorithm NSGAII
+    url: https://github.com/acastellanos95/ParallelNSGAII
+    desc: Reimplemented NSGAII in C++17/OpenMP obtaining better results than sequential algorithm provided by K. Deb.
+    # highlight: WIP
 
-  - title: Project 6
-    url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
+  - title: GPU random search of trailing zeroes in SHA-256 hashes.
+    url: https://github.com/acastellanos95/GPU-random-search-SHA-256
+    desc: A GPU accelerated SHA-256 for messages of 64 bits by random search of trailing zeroes in CUDA/C++.
 
 # old_project_entries:
 #   - title: Soopr
@@ -54,11 +54,8 @@ project_entries:
 #     desc: The better people know you, the better they collaborate
 
 footer_entries:
-  - title: abhinav's homepage
-    url: https://www.abhinav.co
-
-  - title: twitter
-    url: https://twitter.com/abhinav
+  - title: linkedin
+    url: https://www.linkedin.com/in/acastellanos95/
 
   - title: github
     url: https://github.com/acastellanos95
