@@ -20,5 +20,9 @@
     {% include toggle_theme_js.html %}
   {% endif %}
 
+  {% if page.use_math %}
+    {% include mathjax_support.html %}
+  {% endif %}
+
   {%- include custom_head.html -%}
 </head>
