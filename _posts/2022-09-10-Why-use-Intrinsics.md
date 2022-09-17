@@ -18,7 +18,7 @@ AVX (or Advanced Vector Extensions) are SIMD instructions in the x86 ISA that ar
 
 ### Example: 32 8-bit floating point numbers parallel adding
 
-```C++
+```c++
 #include <vector>
 #include <random>
 #include <iostream>
@@ -85,7 +85,7 @@ As always in parallel programming, the typical example is to implement vector or
 
 In vector multiplication, we have $\sum_i a_i\cdot b_i$. So first we need to multiply the vector and then reduce it with additions. __Recommendation__: Use all AVX register to optimize the time.
 
-```C++
+```c++
 #include <vector>
 #include <random>
 #include <iostream>
