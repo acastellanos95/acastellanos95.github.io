@@ -1,7 +1,7 @@
 title: Moonwalk
 author: Abhinav Saxena
-url: https://www.abhinavsaxena.com # root address of the site
-baseurl: "/moonwalk/" # set to "/moonwalk" if hosting under a project subpath
+url: https://acastellanos95.github.io # root address of the site
+baseurl: "" # set to "/moonwalk" if hosting under a project subpath
 description: > # description of the site (multiple lines allowed)
   Moonwalk is a fast and elegant Jekyll theme with a clean dark mode. It comes with horizontal list (for navbar and footer), card list (for portfolio), and a generic vertical list. It is very easy to modify in case you want to build over it - please see _layouts/home.html to do that.
 
@@ -54,20 +54,20 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-soopr-seo-tag
+  - jekyll-seo-tag
   - jekyll-markdown-output
   - jekyll-llms-output
 
 # Emit a clean .md sibling for each post (e.g. /foo -> /foo.md) so AI agents
 # can fetch source Markdown instead of parsing HTML. Set enabled: false to disable.
-markdown_output:
-  collections: [posts]
+# markdown_output:
+# collections: [posts]
 
 # Emit /llms.txt (curated index) and /llms-full.txt (full content) so agents
 # can discover and ingest the site. See https://llmstxt.org for the spec.
-llms_output:
-  index:
-    collections: [posts]
-  full:
-    collections: [posts]
-    respect_markdown_output: true
+# llms_output:
+# index:
+# collections: [posts]
+# full:
+# collections: [posts]
+# respect_markdown_output: true
